@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+:root{
+    --red-bg-color:#b9bac1;
+    --black-txt-color:
+}
+body{
+    color: bisque;
+}
+
+h1{
+    color:var(--red-bg-color);
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  animation: h1 1s infinite;
+  
+ }
+ h1:hover
+ {
+    color: orangered;
+    -ms-zoom-animation: initial;
+ }
+ html{
+    text-align: center;
+    text-shadow: 0cm;
+background-color:#20295F   ;
+ }
+
+ @keyframes h1{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+
+    
+ }
+ table{
+    background-color: #610505;
+    color: cadetblue;
+ }
+ tr{
+    border: 1px solid #610505;
+    border-color: 3px azure;
+    padding: 30px;
+    text-align: center;
+ }
+th{
+    padding-right: 55px;
+    text-align: center;
+}
+
+td{
+    padding: 30px;
+}
+
+td:hover{
+    color: orangered;
+    cursor: pointer;
+} 
+
+
+
+      
